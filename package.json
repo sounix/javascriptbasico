@@ -1,0 +1,22 @@
+{
+  "name": "javascriptbasico",
+  "version": "1.0.0",
+  "description": "Librerias Basicas de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sounix/javascriptbasico.git"
+  },
+  "author": "Aldrin Gonzalez Cancino <sounix@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sounix/javascriptbasico/issues"
+  },
+  "homepage": "https://github.com/sounix/javascriptbasico#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
