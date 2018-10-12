@@ -1,7 +1,7 @@
 
 enum Sexo {
-  M,
-  F
+  M = "MASCULINO",
+  F = "FEMENINO"
 }
 
 interface Persona {
@@ -11,13 +11,15 @@ interface Persona {
   sexo: Sexo;  
 }
 
-function nombreCompleto(datos: Persona) {
-  return 'Tu Nombre es: ' + datos.nombre + ' ' + datos.apellidos;
+function nombreCompleto (datos: Persona): string {
+  return `Tu Nombre es: ${datos.nombre} ${datos.apellidos}`;
 }
 
-console.log(nombreCompleto({ 
-  nombre: "Aldrin", 
-  apellidos: "Gonzalez Cancino", 
+const sounix: Persona = { 
+  nombre: "Aldrin Debian", 
+  apellidos: "Gonzalez Araujo", 
   edad: 37, 
   sexo: Sexo.M
-}));
+}
+
+console.log(nombreCompleto(sounix));
